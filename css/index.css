@@ -4629,19 +4629,33 @@ h1.page-title + .tag-cloud-list {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+#aside-content {
+  -webkit-animation: gradient 15s ease infinite;
+  -moz-animation: gradient 15s ease infinite;
+  -o-animation: gradient 15s ease infinite;
+  -ms-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+}
 #aside-content > .card-info {
   background: #fff url("https://img02.anzhiy.cn/adminuploads/1/2022/10/26/6358a07bf21fc.webp") top -24% center no-repeat;
+  background-size: 400%;
+}
+#aside-content .card-info {
   position: relative;
 }
-#aside-content > .card-info .author-info__name {
-  line-height: 1.5em;
-  margin: 4px 0;
+#aside-content .card-info .author-info__name {
+  text-align: left;
+  font-weight: bold;
+  color: var(--anzhiyu-white);
+  font-size: 28px;
+  line-height: 1.1;
+  margin-top: 1.3rem;
+  margin-bottom: 1rem;
 }
-#aside-content > .card-info #author-info__sayhi {
+#aside-content .card-info #author-info__sayhi {
   text-align: left;
   background: var(--anzhiyu-white-op);
-  color: var(--font-color);
-  border: var(--style-border);
+  color: var(--anzhiyu-white);
   font-size: 12px;
   margin-right: auto;
   padding: 5px 8px;
@@ -4650,13 +4664,13 @@ h1.page-title + .tag-cloud-list {
   display: inline;
   margin-left: -1px;
 }
-#aside-content > .card-info .banner-button-group .banner-button {
-  border-radius: 12px;
-  background: var(--anzhiyu-theme);
+#aside-content .card-info .banner-button-group .banner-button {
+  border-radius: 35px;
+  background: var(--anzhiyu-white-op);
 }
-#aside-content > .card-info .banner-button-group .banner-button:hover {
-  background: var(--anzhiyu-theme-deep);
-  color: var(--anzhiyu-white);
+#aside-content .card-info .banner-button-group .banner-button:hover {
+  background: var(--anzhiyu-white);
+  color: var(--anzhiyu-black);
 }
 @-moz-keyframes more-btn-move {
   0%, 100% {
