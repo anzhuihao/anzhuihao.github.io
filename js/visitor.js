@@ -23,17 +23,3 @@ fetch('https://api.vvhan.com/api/visitor.info').then(res => res.json()).then((da
     </p></span></div>
     `
 });
-
-//获取51la统计
-fetch('https://sdk.51.la/perf/js-sdk-perf.min.js').then(res => res.text()).then((data) => {
-    let title = ['最近活跃访客', '今日访问人数', '今日访问量', '昨日人数', '昨日访问量', '本月访问量', '总访问量']
-    let num = data.match(/(?<=<\/span><span>).*?(?=<\/span><\/p>)/g)
-    let s = document.querySelectorAll('#visitor .content')[1]
-    if (s !== undefined) {
-        for (let i = 0; i < num.length; i++) {
-            if (i == 3 || i == 4) continue;
-            s.innerHTML += '<div><p><span id=name>' + title[i] + '</span id=name><span class="num">' + num[i] + '</span></p></div>'
-        }
-    }
-});
-
