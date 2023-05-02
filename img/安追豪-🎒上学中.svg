@@ -1,5 +1,5 @@
-<svg width="130" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="安追豪-💻上学中">
- <title>安追豪-💻上学中</title>
+<svg width="130" height="20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="安追豪-🎒上学中">
+ <title>安追豪-🎒上学中</title>
  <defs>
   <linearGradient id="a" x2="0" y2="100%">
    <stop offset="0" stop-color="#fcfcfc" stop-opacity="0"/>
@@ -19,8 +19,8 @@
    <rect id="llink" stroke="#d5d5d5" fill="url(#a)" x="0.5" y="0.5" width="60" height="19" rx="2"/>
    <text aria-hidden="true" x="385" y="150" fill="#fff" transform="scale(.1)" textLength="330" id="svg_8">安追豪</text>
    <text x="385" y="140" transform="scale(.1)" textLength="330" id="svg_9">安追豪</text>
-   <text aria-hidden="true" x="975" y="150" fill="#fff" transform="scale(.1)" textLength="550" id="svg_10">💻上学中</text>
-   <text id="rlink" x="975" y="140" transform="scale(.1)" textLength="550">💻上学中</text>
+   <text aria-hidden="true" x="975" y="150" fill="#fff" transform="scale(.1)" textLength="550" id="svg_10">🎒上学中</text>
+   <text id="rlink" x="975" y="140" transform="scale(.1)" textLength="550">🎒上学中</text>
   </g>
  </g>
 </svg>
