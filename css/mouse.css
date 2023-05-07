@@ -1,0 +1,11 @@
+  /* 鼠标图标 */
+  body {
+    cursor: url('/img/x2.cur'), auto;
+  }
+  a,
+  [type='button']:not(:disabled),
+  [type='reset']:not(:disabled),
+  [type='submit']:not(:disabled),
+  button:not(:disabled) {
+    cursor: url('/img/x1.cur'), auto !important;
+  }
